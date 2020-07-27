@@ -55,7 +55,7 @@ HEIGHT = round(HEIGHT / imgsiz)
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption(file + " - PythonIMAGE")
+pygame.display.set_caption("PyImage - " + file)
 main()
 
 running = True
