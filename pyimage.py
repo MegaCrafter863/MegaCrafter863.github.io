@@ -44,7 +44,7 @@ def main():
 	for b in range(0, HEIGHT):
 		updatescreen()
 		for a in range(0, WIDTH):
-			pixel((a, b), pixels[(a * imgsiz)+(((b *imgsiz) * WIDTH) * imgsiz)])
+			pixel((a, b), pixels[(a * round(imgsiz))+(((b *round(imgsiz)) * WIDTH) * round(imgsiz))])
 	
 
 import pygame
