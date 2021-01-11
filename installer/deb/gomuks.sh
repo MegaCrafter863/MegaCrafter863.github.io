@@ -1,6 +1,8 @@
 #!/bin/bash
 sudo apt update -y
-sudo apt install git golang-go libolm-dev -y
+sudo apt install git -y
+sudo apt install golang-go -y
+sudo apt install libolm-dev -y
 git clone https://github.com/tulir/gomuks.git
 cd gomuks
 go build
